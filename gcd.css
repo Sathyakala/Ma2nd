@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+margin:0px; padding:0px; background:url(images/bg.jpg) repeat top left;
+}
+
+a img{
+border:0px;
+}
+
+.wraper{
+width:100%; margin:0px; padding:0px; position:relative; 
+}
+
+.topbg{
+width:100%; background:#00a651; height:47px;
+}
+
+
+.topbg .header{
+width:998px; margin:0px auto; padding:0px; position:relative; height:414px;
+}
+
+.header .logo{
+	width:183px;
+	height:154px;
+	margin-left:16px;
+	position:absolute;
+	z-index:1000;
+	left: 2px;
+}
+
+.header .flash{
+width:998px; height:369px;  margin:0px; padding:0px; background:url(images/banner-bg.png) no-repeat top; position:absolute; top:47px;
+
+}
+
+.header .sreekara{
+width:403px; height:44px;  margin:0px; padding:0px;  left:558px; top:325px; position:absolute; z-index:1000;
+
+}
+
+
+.header .navagation{
+width:auto; float:right; margin:0px; padding:0px;
+}
+
+
+	
+
+
+.maincontainer{
+width:947px; margin:0px auto; padding:0px 10px; background:#FFFFFF; position:relative; top:369px; overflow:auto;
+}
+
+.maincontainer .propertyfinder{
+float:left; width:321px; float:left; margin:0px; padding:0px;
+}
+
+.propertyfinder .protop{
+background:url(images/left_design.png) no-repeat top; float:left; width:321px; height:79px;
+}
+
+.protop h4{
+font-family:"Tekton Pro"; font-size:22px; font-weight:bold; color:#00a651; margin:0px; padding:10px 0px 0px 0px;
+}
+
+.maincontainer .featuredhomes{
+float:left; width:288px; float:left; margin:0px 9px; padding:0px 0px 0px 0px; background:#e4e4e4;
+}
+
+.featuredhomes h4{
+font-family:"Tekton Pro"; font-size:22px; font-weight:bold; color:#00a651; margin:0px; padding:10px 0px 0px 0px; text-align:center;
+}
+
+.featuredhomes .featuresec{
+width:276px; float:left; margin:0px; padding:0px;
+}
+
+.featuresec img{
+float:left; margin:0px; padding:0px;
+}
+
+
+.featuresec p{
+font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#000000; padding:2px 0px; margin:0px ;
+}
+
+.featuresec p a{
+text-align:right; text-decoration:underline; color:#027339;
+}
+
+.featuresec h6{
+font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; padding:0px 10px 7px 10px; margin:0px ;
+}
+
+.featuresec h6 a{
+text-decoration:underline; color:#000;
+}
+
+.propertyfinder .propertysec{
+width:321px; float:left; background:#e4e4e4; padding-top:40px;
+}
+.propertysec div{
+width:300px; padding:10px 10px; float:left; 
+}
+
+.propertysec div label{
+width:100px; float:left; margin:0px; padding:0px; font-family:Tahoma; font-size:12px; color:#000000; font-weight:bold;
+}
+
+.propertysec div input{
+width:181px; height:18px; float:left; border:1px solid #7f9db9;
+}
+
+.propertysec div input.searchbt{
+width:80px; height:28px; float:right; margin:0px; padding:0px; border:0px; cursor:pointer;
+}
+
+.propertysec div input.searchbt{
+background:url(images/search.jpg) no-repeat; width:80px; height:28px; float:right; margin:0px; padding:0px; color:#facb0a; font-weight:bold;
+}
+
+.propertysec div select{
+width:181px; height:20px; float:left; border:1px solid #7f9db9;
+}
+
+.maincontainer .newsevents{
+width:320px; float:left;  margin:0px; padding:0px;
+}
+
+.newsevents .newstop{
+background:url(images/right_design.png) no-repeat top; float:left; width:320px; height:79px;
+}
+
+
+.newstop h4{
+font-family:"Tekton Pro"; font-size:22px; font-weight:bold; color:#00a651; margin:0px; padding:10px 0px 0px 0px; text-align:right;
+}
+
+.newsevents .newsbottom{
+width:300px; float:left; background:#e4e4e4; margin:0px; padding:0px 10px 18px 10px;
+}
+
+.newsbottom h6{
+font-family:Tahoma; font-size:12px; font-weight:bold; color:#000; margin:0px; padding:5px 0px;
+
+}
+
+.newsbottom h5{
+font-family:Tahoma; font-size:12px; font-weight:bold; color:#00a651; margin:0px; padding:5px 0px;
+
+}
+
+.newsbottom h5 a{
+font-family:Tahoma; font-size:10px; font-weight:bold; color:#00a651; margin:0px; padding:0px;
+
+}
+
+
+.newsbottom p{
+font-family:Tahoma; font-size:12px; font-weight:normal; color:#000; margin:0px; padding:5px 0px;
+
+}
+
+.welcomesec{
+background:#f0f6d9; width:704px; float:left; margin:10px 0px; padding:20px 12px;
+}
+
+.welcomesec h5{
+font-family:"Tekton Pro"; font-size:18px; color:#000; margin:0px; padding:0px;
+}
+
+.welcomesec h5 span{
+font-size:14px; color:#20b163;
+}
+
+.welcomesec p{
+font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; text-align:justify;
+}
+
+.advertisesec{
+width:200px; float:right; margin:0px; padding:0px;
+}
+
+.advertisesec img{
+margin:20px auto; display:block;
+}
+
+.footer{
+width:988px; margin:0px auto; padding:0px 0px 0px 10px; position:relative; top:375px;
+}
+
+.footer img{
+float:right; margin-right:20px;
+}
+
+.copyrights{
+width:497px; float:left; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; 
+
+}
+
+
+
+.aboutuspage{
+background:#f4f4f4; width:704px; float:left; margin:10px 0px; padding:20px 12px;
+}
+
+.aboutuspage h5{
+font-family:"Tekton Pro"; font-size:22px; color:#20b163; margin:0px; padding:0px; border-bottom:1px solid #00a651;
+}
+
+.aboutuspage h5 span{
+font-size:14px; color:#20b163;
+}
+
+.aboutuspage p{
+font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; text-align:justify; line-height:18px;
+}
+
+.aboutuspage p span{
+font-weight:bold; color:#00a651;
+}
+
+.aboutuspage ul{
+margin:0px; padding:0px;
+}
+
+.aboutuspage li{
+margin:0px; padding:5px 20px; list-style-type:none; background:url(../gcd21dec11/images/arrow.jpg) no-repeat left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000;
+}
+
+.contactussec{
+width:418px; float:left; margin:0px; padding:0px 10px 0px 16px; background:url(images/welcome_bg.jpg) repeat-x top;
+}
+
+
+.contactussec h4{
+font-family:Tahoma; font-weight:normal; font-size:16px; font-weight:bold; color:#1e2da7; padding:29px 0px 5px 0px;
+}
+
+
+.enquiryformsec{
+width:418px; float:left; margin:0px; padding:30px 0px 0px 0px;
+}
+
+.enquiryformsec div{
+margin:0px; padding:5px 0px; width:418px; float:left;
+}
+
+.enquiryformsec div label{
+font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; width:150px; float:left;
+}
+
+.enquiryformsec div input{
+font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#000000; width:190px; float:left; border:1px solid #7f9db9; height:18px;
+}
+
+.enquiryformsec div select{
+font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#000000; width:190px; float:left; border:1px solid #7f9db9; height:18px;
+}
+
+.enquiryformsec div input.radio{
+width:auto; float:left;
+}
+
+.enquiryformsec div span{
+float:left; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:normal; padding-top:3px;
+}
+
+.enquiryformsec div input.submit{
+background:#057f41; padding: 0px 12px 0px; text-align:center; font-size:12px; font-weight:bold; color:#fff; float:right; margin:0px; width:auto; border:0px; height:30px; margin-right:71px; cursor:pointer;
+}
+
+.addresssec{
+width:250px; float:right; margin:0px; padding:0px;
+}
+
+.addresssec h4{
+font-family:"Tekton Pro"; font-size:17px; color:#20b163; font-weight:bold;
+}
+
+.addresssec p{
+font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; text-align:justify; line-height:18px;
+}
+
+.comingsoon{
+font-family:"Tekton Pro"; font-size:45px; font-weight:normal; color:#77a003; text-align:center; margin:90px 0px 90px 0px; padding:0px;
+}
+
+
+.fabric_view2{width:auto; height:auto; float:left; padding:27px 0px 27px 0px;
+}
+
+.fabric_view2 img{ width:auto; height:auto; float:left; margin:15px 20px; padding:2px 2px; border:4px solid #77a003;
+}

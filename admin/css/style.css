@@ -1,0 +1,183 @@
+	@charset "utf-8";
+	htm,body {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: normal;
+		background-color: #ffffff;
+		outline:none;
+		height:100%;
+	}
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+	a{
+	outline:none;
+	text-decoration:none;
+	color:#003366;
+	}
+	
+	.fivepix {
+		height: 5px;
+	}
+	img{
+	border:0px;
+	}
+	
+	.main {
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+	}
+	.footer {
+		background-image: url(../images/footer_bg.gif);
+		background-repeat: repeat-x;
+		height: 40px;
+		color: #666666;
+	}
+	.footer a{
+		color: #666666;
+	}
+	.footer a:hover{
+		color: #000000;
+	}
+	.login_bg {
+		background-image: url(../images/login_bg.gif);
+		background-repeat: repeat-x;
+		border: 1px solid #f7941d;
+		width: 38%;
+		height: 200px;
+		margin: auto;
+	}
+	.right_cornerbg {
+	background-image: url(../images/login_bg.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #cfdbe5;
+	width: 97%;
+    min-height:380px;
+	margin: auto;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+	}
+	.right_cornerbg h4{
+		font-size:14px;
+		color:#FFFFFF;
+	}
+	.button {
+		background-image: url(../images/button_bg.gif);
+		background-repeat: repeat-x;
+		color: #FFFFFF;
+		font-weight: bold;
+		border: 1px solid #010102;
+		font-size: 12px;
+		padding: 5px;
+		font-family: "Lucida Grande","Trebuchet MS",Verdana,Helvetica,sans-serif;
+		background-color: #010102;
+	}
+	
+	.login_bg h1{
+		color:#FFFFFF;
+		font-size:14px;
+	}
+	.login_bg input{
+		padding:2px;
+	}
+	
+	.left_panel{
+	background-color: #ffe0ba;
+	padding: 5px;
+	color: #1d274e;
+	height: 380px;
+	border: 1px solid #ffe0ba;
+	}
+	.welcome_bg{
+	background-color:#FFFFFF;
+	padding:5px;
+	font-size:14px;
+	color:#666666;
+	height:220px;
+	border:1px solid #f7941d;
+	}
+	.errorMsg{
+	font-size:12px;
+	color:#FF0000;
+	font-weight:bold;
+	}
+/*
+
+*/
+
+.glossymenu{
+	padding: 0;
+	width: 93%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.glossymenu a.menuitem{
+	color: #263356;
+	display: block;
+	position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+	width: auto;
+	padding: 4px 0;
+	padding-left: 10px;
+	text-decoration: none;
+	background-position: left bottom;
+	font-weight: bold;
+}
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+	color: #263356;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d0e0ee;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+	color: #FFFFFF;
+	background-color: #263377;
+}
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+	font-size: 11px;
+	background-color: #d0e0ee;
+
+}
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.glossymenu div.submenu ul li{
+
+}
+.glossymenu div.submenu ul li a{
+	display: block;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 0;
+	padding-bottom: 3px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+	colorz: white;
+	background-color: #E1EBF4;
+}
+.tbl_border {
+	border: 1px solid #CCCCCC;
+	border-collapse:collapse;
+}
+fieldset legend{  font-size:12px; font-weight:bold; color:#0000FF;}
